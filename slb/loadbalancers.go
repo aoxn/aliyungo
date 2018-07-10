@@ -156,6 +156,7 @@ type DescribeLoadBalancersArgs struct {
 	Address            string
 	InternetChargeType InternetChargeType
 	ServerId           string
+	Tags 		   string
 }
 
 type ListenerPortAndProtocolType struct {
